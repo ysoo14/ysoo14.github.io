@@ -33,7 +33,7 @@ padding: 5px;
 ## Skill
  * Python, Pytorch, huggingface/transformers
 
-## Intereset
+## Interest
  * Machine Learning, Deep Learning, Natural Language Processing
 
 ## Research(ERC task)
