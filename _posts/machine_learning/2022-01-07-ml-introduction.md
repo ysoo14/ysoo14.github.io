@@ -15,7 +15,7 @@ description: 머신러닝의 정의 및 기본 배경지식을 소개하는 글
 article_tag1: machine learning
 article_tag2: 머신러닝
 meta_keywords: 머신러닝이란, 머신러닝, machine learning
-last_modified_at: 2022-01-07T00:00:00+08:00
+last_modified_at: 2022-01-11T00:00:00+08:00
 ---
 본 포스트는 머신러닝에 대한 정의와 머신러닝을 이해하는 데에 필요한 기본 지식에 대해 소개하는 글이고,
 Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow 2nd Edition을 참고하였습니다.
@@ -29,8 +29,8 @@ Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow 2nd Edition을 �
 
 **그렇다면, 머신러닝은 무엇일까요?** 머신러닝은 앞서 말한 것 처럼, 인공지능을 구현하는 하나의 방법으로 기존 프로그래밍 처럼 시스템에 특정 규칙을 미리 정의하는 것이 아닌 데이터를 통해 그 규칙을 학습하는 것을 의미합니다. 쉽게 말해서 시스템으로 하여금 기존 데이터를 보고 어떤 의사결정을 내릴 수 있도록 특정 규칙을 만들어 가는 것이라고 생각하면 됩니다.
 
-<p align="center" style="color:gray">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/22.01.07/ml/ml-intro1.png" style="padding: 0;margin:0;">
+<p align="center" style="color:gray; font-size:0.5em">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ml/22.01.07/ml-intro1.png" style="padding: 0;margin:0;">
   출처: "https://bi.snu.ac.kr/~scai/Courses/ML2017/ch1.pdf"
 </p>
 
@@ -50,32 +50,32 @@ Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow 2nd Edition을 �
   * 지도학습 (Supervised Learning).<br>
   Supervised Learning은 입력 데이터를 통해 특정 결과를 예측하도록 모델을 훈련하는 방식을 의미합니다. 대표적으로, 사진을 보고 강아지인지 고양이인지 분류하는 등의 Classification task, 주식을 예측하는 등의 Regression task를 예로 들 수 있습니다. 이런 task들을 훈련하기 위해서는 데이터 별로 정답이 주어져야 한다. 따라서, Supervised Learning을 위한 훈련 데이터 셋에는 **label**이라고 불리는 정답이 포함되어 있습니다. 여기서 포인트는 **Supervised Learning은 훈련 데이터에 label이 포함되어 있다**는 것입니다.
   
-  <p align="center" style="color:gray">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/22.01.07/ml/ml-intro2.png" style="padding: 0;margin:0;">
+  <p align="center" style="color:gray; font-size:0.5em">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ml/22.01.07/ml-intro2.png" style="padding: 0;margin:0;">
   출처: Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow 2nd Edition
   </p>
 
   <br>
   * 비지도학습 (Unsupervised Learning).<br>
   Unsupervised Learning은 Supervised Learning과 다르게 데이터 셋에 label이 포함되어 있지 않습니다. 따라서 Unsupervised Learning은 어떤 특정 결과를 예측하는 방식이 아니라 데이터 만의 특징이나 패턴을 찾아내는 방식이라고 할 수 있습니다. 예를 들어, 특정 기준에 따라 데이터를 그룹화하는 Clustering, 고차원의 데이터를 저차원으로 표현하는 Dimension Reduction이 있습니다. 여기서 포인트는 **Unsupervised Learning은 label이 없고 데이터의 특징이나 패턴을 찾아내는 훈련 방식이다**는 것입이다.
-  <p align="center" style="color:gray">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/22.01.07/ml/ml-intro3.png" style="padding: 0;margin:0;">
+  <p align="center" style="color:gray; font-size:0.5em">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ml/22.01.07/ml-intro3.png" style="padding: 0;margin:0;">
   출처: Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow 2nd Edition
   </p>
 
   <br>
   * 준지도 학습 (Semisupervised Learning).<br>
   Semisupervised Learning은 위의 두 가지 유형이 특징을 모두 갖고 있습니다. 쉽게 말해, 데이터 중 일부 만이 label을 가지고 있다는 것입이다. Unsupervised Learning 방식으로 데이터의 특징 및 패턴을 찾아낸 후, Supervised Learning 방식으로 특정 결과를 예측하는 방식을 예로 들 수 있습니다.
-  <p align="center" style="color:gray">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/22.01.07/ml/ml-intro4.png" style="padding: 0;margin:0;">
+  <p align="center" style="color:gray; font-size:0.5em">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ml/22.01.07/ml-intro4.png" style="padding: 0;margin:0;">
   출처: Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow 2nd Edition
   </p>
 
   <br>
   *  강화 학습 (Reinforcement Learning).<br>
   Reinforcement Learning은 학습되는 시스템을 Agent라고 부릅니다. 이 agent가 주변 환경 environment를 관찰하며 적절한 행동 action을 취하게 되고 그에 맞는 보상 reward를 받게 됩니다. 보상은 말 그대로 보상일 수도 있고 penalty일 수도 있습니다. agent는 이런 보상에 따라서 환경 environment에 따른 행동 action을 학습하게 됩니다. 예를 들어, 알파고가 있는데 시스템 agent는 바둑판에 놓여진 바둑 알의 패턴 environment를 확인하고 바둑알을 놓는데 action, 바둑의 승패 reward에 따라 agent가 environment에 따른 적절한 action을 취하도록 훈련됩니다.
-  <p align="center" style="color:gray">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/22.01.07/ml/ml-intro5.png" style="padding:0;margin:0;"><br>
+  <p align="center" style="color:gray; font-size:0.5em">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ml/22.01.07/ml-intro5.png" style="padding:0;margin:0;"><br>
           출처: Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow 2nd Edition
   </p>
 
