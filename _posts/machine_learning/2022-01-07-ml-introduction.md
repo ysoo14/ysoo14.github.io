@@ -17,9 +17,7 @@ article_tag2: 머신러닝
 meta_keywords: 머신러닝이란, 머신러닝, machine learning
 last_modified_at: 2022-01-11T00:00:00+08:00
 ---
-본 포스트는 머신러닝에 대한 정의와 머신러닝을 이해하는 데에 필요한 기본 지식에 대해 소개하는 글이고,
-Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow 2nd Edition을 참고하였습니다.
-
+본 포스트는 머신러닝에 대한 정의와 머신러닝을 이해하는 데에 필요한 기본 지식에 대해 소개하는 글입니다.
 ## 1. 머신러닝(Machine Learning) 이란?
 
  최근 들어, 가장 핫하고 주목받는 기술이 무엇이냐고 물어봤을 때, 대부분의 사람들이 아마도 인공지능 A.I. (Artificial Intelligence)라고 말할 겁니다.
@@ -121,4 +119,4 @@ Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow 2nd Edition을 �
 
 ---
 
-지금까지, 머신러닝의 정의와 기본적인 내용에 대해서 살펴보았습니다. 다음 포스트에서는 데이터 분석 부터 모델 훈련 및 검증까지 머신러닝의 전반적인 pipeline에 대해서 다룰 예정입니다. 그 이후, 본격적으로 머신러닝의 여러 알고리즘 및 알아야할 개념들에 대해서 자세히 다룰 에정입니다.
+지금까지, 머신러닝의 정의와 기본적인 내용에 대해서 살펴보았습니다. 다음 포스트에서는 데이터 분석 부터 모델 훈련 및 검증까지 머신러닝의 전반적인 [pipeline](https://ysoo14.github.io/machine%20learning/ml-pipeline/)에 대해서 다룰 예정입니다. 그 이후, 본격적으로 머신러닝의 여러 알고리즘 및 알아야할 개념들에 대해서 자세히 다룰 에정입니다.
