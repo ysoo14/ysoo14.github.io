@@ -48,10 +48,10 @@ padding: 5px;
   * Transformer를 활용해 전후 문맥을 각각 모델링
   * 1번 연구보다 0.6% (F-1 score) 향상
 
- 3. SAPBERT: Speaker-Aware Pretrained BERT for Emotion Recognition in Conversation *(Apr 2021 - Dec 2021)*
+ 3. Speaker-Aware Pretrained BERT for Emotion Recognition in Conversation *(May 2021 - Dec 2021)*
   * ERC를 위한 새로운 pre-training 방법 제시, Speaker Classification
   * Hierarchical BERT 모델
-  * 2번 연구보다 3.25% (F-1 score) 향상
+  * IEMOCAP Dataset에 대해서 67.16% (F-1 score) 달성,  MELD Dataset에 대해서 64.28% (F-1 score) 달성
 
 ## Work Experience
 
