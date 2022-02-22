@@ -28,7 +28,9 @@ padding: 5px;
 
 본질을 탐구하는 개발자로 성장하기 위해 노력해왔습니다. **'데이터는 인공지능의 본질'**이라는 믿음으로 데이터를 분석하며 연구에 대한 Idea & Intuition을 얻었습니다.
 
-끈기를 갖고 연구를 진행해왔습니다. ERC(Emotin Recognition in Conversation) task에 대해서 딥러닝을 활용하여 총 3가지 연구를 진행했고 연구를 진행할 때 마다 향상된 성능을 보였습니다.
+끈기를 갖고 연구를 진행해왔습니다. ERC(Emotin Recognition in Conversation) task에 대해서 딥러닝을 활용해 Dialogue Modeling에서 저만의 방법을 제시해왔고 성능을 향상 시켜왔습니다. 
+
+7천개가 넘는 발화를 반복하여 직접 읽어가며 분석할 만큼 데이터를 중요시하는 자세와 데이터 분석을 통해 저만의 방향을 고안하는 능력 그리고 성능을 향상시켜온 경험은 저만의 차별화된 강점이라고 생각합니다.
 
 ## Skill
  * Python, Pytorch, huggingface/transformers
