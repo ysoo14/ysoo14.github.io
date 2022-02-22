@@ -33,7 +33,7 @@ padding: 5px;
 7천개가 넘는 발화를 반복하여 직접 읽어가며 분석할 만큼 데이터를 중요시하는 자세와 데이터 분석을 통해 저만의 방향을 고안하는 능력 그리고 성능을 향상시켜온 경험은 저만의 차별화된 강점이라고 생각합니다.
 
 ## Skill
- * Python, Pytorch, huggingface/transformers
+ * Python, Pytorch, huggingface/transformers <br><br>
 
 ## Interest
  * Machine Learning, Deep Learning, Natural Language Processing
